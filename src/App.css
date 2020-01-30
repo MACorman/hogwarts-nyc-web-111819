@@ -74,7 +74,7 @@ ul {
 
 
 .pigTile {
-  display: inline;
+  /* display: inline; */
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
@@ -83,6 +83,8 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+  width: 280px;
+  height: 320px;
 }
 
 .minBackgroundSneak {
@@ -138,3 +140,5 @@ ul {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
